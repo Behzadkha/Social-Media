@@ -1,3 +1,5 @@
+<img src="./Django.PNG" />
+
 ## Usage
    Make sure you have conda installed\
    Enable django environment using condo activate djangoenv\
