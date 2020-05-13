@@ -3,9 +3,6 @@
    Enable django environment using condo activate djangoenv\
    Run locally with\
    &nbsp;&nbsp;&nbsp;&nbsp;python manage.py runserver localhost:8000\
-   Run on mac1xa3.ca with\
-   &nbsp;&nbsp;&nbsp;&nbsp;python manage.py runserver localhost:10057\
-   Login with behzad, password TestPassword\
    Login with tester, password TestPassword\
    Login with tester2, Password TestPassword
 
