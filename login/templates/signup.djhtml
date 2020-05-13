@@ -1,0 +1,26 @@
+{% extends 'base.djhtml' %}
+
+{% block title %}Signup Page{% endblock %}
+
+{% block css %}
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'w3login.css' %}">
+{% endblock %}
+
+{% block middle_column %}
+    <!-- TODO Objective 1: implement signup form -->
+<!-- refrence: w3schools,com -->
+<form method="post" action="{% url 'login:signup_view' %}">
+  {% csrf_token %}
+  {{ signup_form }}
+  <div class="container">
+   <button type="submit" class="registerbtn">Register</button>
+  </div>
+</form>
+{% if signup_failed %}
+ <p style="color:red"> Invalid username or password </p>
+{% endif %}
+{% if message %}
+<div> User alreay exists </div>
+{% endif %}
+{% endblock %}
