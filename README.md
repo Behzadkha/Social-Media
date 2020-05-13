@@ -1,5 +1,3 @@
-# CS 1XA3 Project03 - khamnelb
-
 ## Usage
    Make sure you have conda installed\
    Enable django environment using condo activate djangoenv\
